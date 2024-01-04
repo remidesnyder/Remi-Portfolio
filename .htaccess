@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^portfolio/projects$ /portfolio/projects.html [L,NC,R=301]
+RewriteRule ^portfolio/projects$ /portfolio/projects.html [L,NC]
