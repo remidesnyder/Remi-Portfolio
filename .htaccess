@@ -1,4 +1,2 @@
 RewriteEngine On
-
-# Redirect /portfolio/projects to projects.html
-Redirect 301 /portfolio/projects https://remidesnyder.fr/portfolio/projects.html
+RewriteRule ^portfolio/projects$ /portfolio/projects.html [L,NC,R=301]
