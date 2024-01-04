@@ -1,2 +1,7 @@
+Options +FollowSymLinks
 RewriteEngine On
-RewriteRule ^portfolio/projects$ /portfolio/projects.html [L,NC]
+
+# Rewrite /portfolio/projects to /portfolio/projects.html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+?)/?$ $1.html [L]
