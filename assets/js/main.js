@@ -150,6 +150,7 @@ function changeLanguage() {
 
     // Section "projects"
     const projectsHeader = document.querySelector('#projects .top-header h1');
+    const projectSpan = document.querySelector('#projects .top-header .project-span');
     const completedProject = document.querySelector('#projects .project-box:nth-child(1) h3');
     const completedProjectLabel = document.querySelector('#projects .project-box:nth-child(1) label');
     const clientsProject = document.querySelector('#projects .project-box:nth-child(2) h3');
@@ -191,6 +192,7 @@ function changeLanguage() {
         downloadCVBtnAbout.innerHTML = "Télécharger CV <i class='uil uil-import'></i>";
 
         projectsHeader.textContent = "Projets";
+        projectSpan.innerHTML = "Voici 3 projets et vous pouvez cliquer <a>ici</a> pour en voir plus."
         completedProject.textContent = "Terminés";
         completedProjectLabel.textContent = "15+ Projets terminés";
         clientsProject.textContent = "Clients";
@@ -238,6 +240,7 @@ function changeLanguage() {
         downloadCVBtnAbout.innerHTML = "Download CV <i class='uil uil-import'></i>";
 
         projectsHeader.textContent = "Projects";
+        projectSpan.innerHTML = "Here are 3 projects and you can click <a>here</a> to see more."
         completedProject.textContent = "Completed";
         completedProjectLabel.textContent = "15+ Finished Projects";
         clientsProject.textContent = "Clients";
