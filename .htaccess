@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect /portfolio/projects to projects.html
+RewriteRule ^portfolio/projects$ /portfolio/projects.html [L,NC]
