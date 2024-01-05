@@ -44,7 +44,7 @@
             </ul>
         </div>
         <div class="nav-button">
-            <button class="btn" id="btn-lang" onclick="changeLanguage()">FR</i></button>
+            <!-- <button class="btn" id="btn-lang" onclick="changeLanguage()">FR</i></button> -->
             <button class="btn" id="btn-download-cv">Télécharger CV <i class="uil uil-file-alt"></i></button>
         </div>
         <div class="nav-menu-btn">
@@ -54,14 +54,72 @@
 
     <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
-        <section class="section" id="myProjects">
+        <section class="projects-box" id="myProjects">
             <div class="top-header">
                 <h1>Mes projets</h1>
+                <p>Sélectionnez un langage :</p>
+                <div id="language-buttons">
+                    <button class="language-button" data-language="All">Tout</button>
+                </div>
+            </div>
+            <div class="project-container" id="projectContainer">
             </div>
         </section>
     </main>
 
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Rémi Desnyder</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="https://remidesnyder.fr/portfolio/#home">Accueil</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="https://remidesnyder.fr/portfolio/#about">À propos</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="https://remidesnyder.fr/portfolio/#projects">Projets</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="https://remidesnyder.fr/portfolio/#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/remi-desnyder/">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/remidesnyder">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="https://remidesnyder.fr/portfolio/#home" style="text-decoration: none;">Rémi
+                Desnyder</a> - All rights reserved</p>
+        </div>
+    </footer>
+
 </div>
+
+<!-- ----- JQUERY Link ----- -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!-- ----- TYPING JS Link ----- -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- ----- SCROLL REVEAL JS Link----- -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- ----- JS ----- -->
+<!-- <script src="assets/js/main.js"></script> -->
+<script src="assets/js/projects.js"></script>
 
 </body>
 </html>
