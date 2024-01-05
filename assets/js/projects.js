@@ -156,7 +156,7 @@ function filterProjects(selectedLang) {
                 <p>${project.description}</p>
                 <div class="project-box-footer">
                     <!-- <span class="project-type">${project.type}</span> -->
-                    <div class="project-languages">
+                    <div class="project-languages" id="project-languages">
                         ${project.language.map(language => `<span>${language}</span>`).join(" ")}
                     </div>
                 </div>
