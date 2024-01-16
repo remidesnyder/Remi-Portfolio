@@ -192,7 +192,7 @@ function changeLanguage() {
         downloadCVBtnAbout.innerHTML = "Télécharger CV <i class='uil uil-import'></i>";
 
         projectsHeader.textContent = "Projets";
-        projectSpan.innerHTML = "Voici 3 projets et vous pouvez cliquer " +  <a href="https://remidesnyder.fr/portfolio/projects">ici</a> +  " pour en voir plus."
+        projectSpan.innerHTML = `Voici 3 projets et vous pouvez cliquer <a href="https://remidesnyder.fr/portfolio/projects">ici</a> pour en voir plus.`;
         completedProject.textContent = "Terminés";
         completedProjectLabel.textContent = "15+ Projets terminés";
         clientsProject.textContent = "Clients";
@@ -240,7 +240,7 @@ function changeLanguage() {
         downloadCVBtnAbout.innerHTML = "Download CV <i class='uil uil-import'></i>";
 
         projectsHeader.textContent = "Projects";
-        projectSpan.innerHTML = "Here are 3 projects and you can click " +  <a href="https://remidesnyder.fr/portfolio/projects">here</a> + " to see more."
+        projectSpan.innerHTML = `Here are 3 projects and you can click <a href="https://remidesnyder.fr/portfolio/projects">here</a> to see more.`;
         completedProject.textContent = "Completed";
         completedProjectLabel.textContent = "15+ Finished Projects";
         clientsProject.textContent = "Clients";
