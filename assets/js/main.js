@@ -120,20 +120,20 @@ window.addEventListener('scroll', scrollActive)
 
 function changeLanguage() {
     // Barre de navigation
-    const navHome = document.querySelector('.nav-link[href="#home"]');
-    const navAbout = document.querySelector('.nav-link[href="#about"]');
-    const navProjects = document.querySelector('.nav-link[href="#projects"]');
-    const navContact = document.querySelector('.nav-link[href="#contact"]');
+    const navHome = document.querySelector('.nav-link[href="https://remidesnyder.fr/portfolio/#home"]');
+    const navAbout = document.querySelector('.nav-link[href="https://remidesnyder.fr/portfolio/#about"]');
+    const navProjects = document.querySelector('.nav-link[href="https://remidesnyder.fr/portfolio/#projects"]');
+    const navContact = document.querySelector('.nav-link[href="https://remidesnyder.fr/portfolio/#contact"]');
 
     const btnDownloadCV = document.getElementById("btn-download-cv");
     // Bouton FR/EN
     const btnLANG = document.getElementById('btn-lang');
 
     // Pied de page
-    const footerHome = document.querySelector('.footer-menu a[href="#home"]');
-    const footerAbout = document.querySelector('.footer-menu a[href="#about"]');
-    const footerProjects = document.querySelector('.footer-menu a[href="#projects"]');
-    const footerContact = document.querySelector('.footer-menu a[href="#contact"]');
+    const footerHome = document.querySelector('.footer-menu a[href="https://remidesnyder.fr/portfolio/#home"]');
+    const footerAbout = document.querySelector('.footer-menu a[href="https://remidesnyder.fr/portfolio/#about"]');
+    const footerProjects = document.querySelector('.footer-menu a[href="https://remidesnyder.fr/portfolio/#projects"]');
+    const footerContact = document.querySelector('.footer-menu a[href="https://remidesnyder.fr/portfolio/#contact"]');
 
     // Section "featured-box"
     const featuredName = document.querySelector('.featured-name .text');
